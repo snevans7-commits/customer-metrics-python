@@ -1,0 +1,11 @@
+[project]
+name = "customer-metrics"
+version = "0.1.0"
+description = "Customer metrics calculation from order data"
+requires-python = ">=3.8"
+dependencies = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "."
